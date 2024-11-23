@@ -1,0 +1,60 @@
+header, footer{
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.texte, input[type="date"], textarea, select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+textarea {
+    height: 100px;
+}
+.roles, .roles label {
+    display: inline-block;
+    margin-right: 10px;
+}
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+.roles {
+    margin-bottom: 20px;
+}
+.envoi {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E46C5E;
+    color: #fff;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #d55b50;
+}
+
+main {
+    padding: 10vh 30px 20vh 30px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

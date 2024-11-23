@@ -1,0 +1,63 @@
+.gestion-compte {
+	overflow-y: hidden;
+	display: none;
+	position: absolute;
+  	width: 40vw;
+  	height: 100vh;
+  
+  	right: 0;
+  	background-color: rgba(130, 130, 130, .8); 
+  	padding: 20px; 
+
+    z-index: 2;
+}
+
+
+.gestion-compte form{
+	margin-top: 20vh;
+}
+
+.username, .tel, .email{
+	margin-bottom: 5vh;
+	height: 3vh;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px #F8544D solid;
+	outline: none;
+}
+
+.username:hover, .tel:hover, .email:hover{
+	border: 2px #F8544D solid;
+	outline: none;
+}
+
+.envoie-gestion{
+	background-color: #F8544D;
+	border: none;
+	padding: 8px;
+	border-radius: 20px;
+	position: absolute;
+	font-size: 1.2rem;
+	right: 10vh;
+	bottom: 30vh;
+}
+
+.envoie-gestion:hover{
+	opacity: .8;
+}
+
+@media screen and (max-width: 763px){
+
+	.gestion-compte{
+		width: 60vw;
+	}
+}
+
+
+@media screen and (max-width: 865px){
+
+	.gestion-compte{
+		width: 80vw;
+	}
+}

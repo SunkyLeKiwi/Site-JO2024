@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+*{
+	font-family: "Julius Sans One", sans-serif;
+}
+
+h1{
+	margin: 0;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+
+
+
+
+
+.title{
+	text-align: center;
+	font-size: 3rem;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+
+.site-entrer{
+	width: 100vw;
+	height: 90vh;
+	background-image: url("./../assets/jo_fond.png");
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	padding-top: 30px;
+}
+
+
+.site-entrer h1{
+	margin-top: 0px;
+}
+
+.barre-de-recherche form {
+  display: flex;
+  flex: 1; /* Permet au formulaire de prendre toute la largeur disponible */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barre-de-recherche{
+	width: 70vw;
+	height: 70px;
+	background-color: #F4F4F4;
+	margin-top: 30px;
+	border-radius: 15px;
+
+	padding: 3px;
+	display: flex;
+	align-items: center;
+}
+
+.appliquer{
+	background-color: #F8544D;
+	border: none;
+	padding: 4px;
+	border-radius: 20px;
+	font-size: 1rem;
+	margin-left: 5px;
+}
+
+.appliquer:hover{
+	opacity: .8;
+}
+
+.b-recherche{
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+	border: none;
+	background-color: #F4F4F4;
+}
+
+.b-recherche:hover{
+	background-color: #F4F4F4;
+}
+
+.b-recherche img{
+	width: 50px;
+	height: 50px;
+}
+
+.recherche {
+  border: none;
+  outline: none;
+  height: 50px;
+  margin-left: 10px;
+  padding: 0 10px; 
+  font-size: 1.5rem;
+  border-radius: 15px 0 0 15px; 
+
+  background-color: #F4F4F4;
+
+  width: calc(70vw - 30px - 60px);
+  border-right: 2px black solid;
+}
+
+.recherche:focus {
+  border: none;
+  outline: none;
+  border-right: 2px black solid;
+}
+
+
+.menu {
+    display: none; 
+    position: absolute;
+    top: 12vh;
+    left: 20px;
+    background-color: #F8544D;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menu h1 {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.form-recherche{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+}
+
+.tableau{
+	width: 100vw;
+	padding: 40px;
+	margin-left: 20px;
+}
+
+.trie{
+	padding-left: 40px;
+}
+
+form label{
+	padding-right: 10px;
+}
+
+.trie form select{
+	border: none;
+	border-radius: 20px;
+	height: 1.5rem;
+}
+
+
+
+
+
+.visible {
+    display: block;
+}
+
+table{
+	background-color: #D9D9D9;
+	border-collapse: collapse;	
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	overflow-x: auto;
+}
+
+thead{
+	background-color: #F8544D;
+	padding: 3px;
+}
+
+th{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	padding: 3px;
+}
+
+td{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	padding: 3px;
+}

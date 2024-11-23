@@ -1,0 +1,50 @@
+header{
+	background-color: #F8544D;
+	padding: 8px;
+	display: flex;
+	flex-direction: row;
+	z-index: 3;
+	justify-content: space-between;
+	height: 10vh;
+}
+
+img{
+	width: 8vh;
+}
+
+header nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	gap: 3vw;
+}
+
+
+.lien {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5vw;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.connexion{
+	display: flex;
+	flex-direction: row;
+	gap: 2vw;
+	align-items: center;
+	margin-right:30px;
+}
+
+@media screen and (max-width: 1300px){
+
+	.lien{
+		display: none;
+	}
+}

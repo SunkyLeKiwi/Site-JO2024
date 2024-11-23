@@ -1,0 +1,84 @@
+main{
+	display: flex;
+	flex-direction: row;
+	height: 80vh;
+}
+
+.cercles{
+	width: 50vw;
+}
+
+
+.connection, .creer-compte{
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.connection h1, .creer-compte h1{
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.connection label, .creer-compte label{
+	margin-left: 10vw;
+
+}
+
+.roles{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: white;
+}
+
+.pseudo, .password, .roles{
+	margin-bottom: 50px;
+	height: 5Vh;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	font-size: 3vh;
+	width: 30vw;
+	margin-left: 10vw;
+	position: relative;
+	z-index: 1;
+}
+.password{
+	margin-bottom: 20px;
+}
+
+
+.pseudo:focus, .password:focus, .roles:focus{
+	border-color: black;
+	outline: none;
+}
+
+.connection a{
+	margin-bottom: 50px;
+	margin-left: 10vw;
+	color: black;
+}
+
+.se-connecter, .creer-compte button{
+	background-color: #F8544D;
+	border: none;
+	padding: 8px;
+	border-radius: 20px;
+	font-size: 1rem;
+	width: 100px;
+	margin-left: calc(40vw - 100px) ;
+}
+
+.se-deconnecter{
+	background-color: #F8544D;
+	border: none;
+	padding: 8px;
+	border-radius: 20px;
+	font-size: 1rem;
+	width: 11rem;
+	margin : auto
+}
+
+.connection button:hover, .creer-compte button:hover{
+	opacity: .8;
+}

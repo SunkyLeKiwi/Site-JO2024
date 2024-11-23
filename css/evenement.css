@@ -1,0 +1,12 @@
+.inscription{
+	background-color: #F8544D;
+	border: none;
+	padding: 8px;
+	border-radius: 20px;
+	font-size: 1rem;
+	width: 100px;
+}
+.choix_spo, .inscription{
+	margin-bottom: 20px;
+	margin-left: 70vw;
+}
